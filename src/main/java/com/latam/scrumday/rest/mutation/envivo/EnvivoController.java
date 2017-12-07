@@ -11,7 +11,7 @@ public class EnvivoController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String getHola() {
-        return "Hola Mundo";
+        return "Hola Mundo del scrumday";
     }
 
     @RequestMapping(path = "mutants/{id}", method = RequestMethod.GET)
