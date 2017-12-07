@@ -11,7 +11,7 @@ public class EnvivoControllerTest {
     public void shouldReturnHolaMundo() throws Exception {
 
         EnvivoController envivoController = new EnvivoController();
-        assertThat(envivoController.getHola(),is("Hola Mundo"));
+        assertThat(envivoController.getHola(),is("Hola Mundo del ScrumDay"));
 
     }
 }
